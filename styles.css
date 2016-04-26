@@ -38,3 +38,15 @@ a {
 a:hover {
   transform: scale(1.4);
 }
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 100px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  a {
+    font-size: 30px;
+  }
+}
